@@ -11,11 +11,27 @@ export default function Contact() {
     poruka: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Form submission placeholder – integrate with backend or email service
-    setSubmitted(true);
+    setLoading(true);
+    setError("");
+
+    const res = await fetch("/api/contact", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    setLoading(false);
+
+    if (res.ok) {
+      setSubmitted(true);
+    } else {
+      setError("Slanje nije uspelo. Pokušajte ponovo ili nas pozovite.");
+    }
   };
 
   return (
@@ -168,11 +184,16 @@ export default function Contact() {
                     />
                   </div>
 
+                  {error && (
+                    <p className="text-[#e63946] text-sm text-center">{error}</p>
+                  )}
+
                   <button
                     type="submit"
-                    className="w-full bg-[#e63946] hover:bg-[#c1121f] text-white font-bold py-3.5 rounded-lg transition-all duration-200 hover:scale-[1.02] text-base"
+                    disabled={loading}
+                    className="w-full bg-[#e63946] hover:bg-[#c1121f] disabled:opacity-60 disabled:cursor-not-allowed text-white font-bold py-3.5 rounded-lg transition-all duration-200 hover:scale-[1.02] text-base"
                   >
-                    Pošaljite poruku
+                    {loading ? "Slanje..." : "Pošaljite poruku"}
                   </button>
 
                   <p className="text-[#4a5568] text-xs text-center">
