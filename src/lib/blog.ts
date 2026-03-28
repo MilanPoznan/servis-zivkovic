@@ -324,6 +324,83 @@ const posts: BlogPost[] = [
     ],
   },
   {
+    slug: "zamena-zimskih-na-letnje-gume-prolecni-pregled-auta",
+    title: "Proleće je stiglo – vreme za letnje gume i prolećni pregled auta",
+    metaTitle:
+      "Zamena zimskih na letnje gume Beograd – Prolećni pregled | Živković",
+    metaDescription:
+      "Kada zameniti zimske gume na letnje? Saznajte pravo vreme, šta sve proveriti u prolećnom pregledu i zašto ne treba čekati do poslednjeg momenta. Autoservis Beograd.",
+    excerpt:
+      "Temperatura je prešla nulu, sunce greje – ali da li je vaš auto spreman za proleće? Evo kada i zašto da zamenite zimske gume i šta još proveriti pre letnje sezone.",
+    date: "28. mart 2026.",
+    dateISO: "2026-03-28",
+    category: "Sezonsko održavanje",
+    readingTime: 5,
+    content: [
+      {
+        type: "p",
+        text: "Kraj marta i početak aprila je period kada većina vozača počinje da razmišlja o zameni zimskih guma. Pravo pitanje nije samo kada – nego i zašto je to važno uraditi na vreme, i šta još treba proveriti na autu nakon zime. Zima je naporna sezona za svaki automobil, i prolećni pregled je odlična prilika da se uhvate sitni problemi pre nego što postanu skupi kvarovi.",
+      },
+      {
+        type: "h2",
+        text: "Kada je pravo vreme za zamenu zimskih guma?",
+      },
+      {
+        type: "p",
+        text: "Zlatno pravilo glasi: prelazite na letnje gume kada temperatura noću trajno prestane da pada ispod 7 stepeni Celzijusa. Zimske gume su napravljene od mekše gumene mešavine koja pruža dobro prianjanje na hladnoj podlozi – ali na toplom asfaltu se brže troše, povećavaju potrošnju goriva i smanjuju upravljivost. Obrnuto važi za letnje gume na hladnom – nisu bezbedne ispod 7°C.",
+      },
+      {
+        type: "tip",
+        text: "Krajem marta i tokom aprila u Beogradu temperature najčešće zadovoljavaju uslov za letnje gume. Ipak, pratite prognozu – ako se najavljuju mrazevi, sačekajte još koji dan.",
+      },
+      {
+        type: "h2",
+        text: "Zašto je opasno voziti zimske gume po toplom vremenu?",
+      },
+      {
+        type: "p",
+        text: "Mnogi vozači odlažu zamenu misleći da \"ne škodi\". Škodi. Zimska guma na toplom asfaltu ima znatno duži kočioni put od letnje gume – razlika može biti i nekoliko metara pri kočenju sa 80 km/h. Pored toga, mekša guma na vrućini se brže haba, što znači da trošite gumu i plaćate skuplje nego da ste na vreme prešli na letnje.",
+      },
+      {
+        type: "h2",
+        text: "Šta još proveriti u prolećnom pregledu?",
+      },
+      {
+        type: "p",
+        text: "Zimska sezona je teška za auto – sol na putevima, niske temperature, loši putni uslovi. Pre nego što krenete u prolećne i letnje vožnje, pametno je proveriti nekoliko stvari:",
+      },
+      {
+        type: "list",
+        items: [
+          "Kočioni sistem – pločice, diskovi i kočione čeljusti trpe zimi više nego inače",
+          "Ovjes i amortizeri – rupe i ledene podloge ubrzavaju habanje",
+          "Akumulator – hladnoća iscrpljuje akumulatore, proleće je dobro vreme za proveru kapaciteta",
+          "Nivo i kvalitet ulja – ako ste prešli zimski servisni interval, vreme je za zamenu",
+          "Rashladna tečnost – proverite nivo i koncentraciju pre letnje sezone",
+          "Svetla i brisači – zamena zimskih brisača na standardne i provera svih svetala",
+        ],
+      },
+      {
+        type: "h2",
+        text: "Uskladištenje zimskih guma",
+      },
+      {
+        type: "p",
+        text: "Kada skidate zimske gume, ne ostavljajte ih tek tako u garaži. Operite ih od soli i prljavštine, osušite i skladištite na suvom i tamnom mestu, idealno na policama ili obešene ako su bez felgi. Gume koje se pravilno čuvaju traju duže i bolje vam služe sledeće zime.",
+      },
+      {
+        type: "cta",
+        text: "Zakažite zamenu guma i prolećni pregled.",
+        href: "tel:+381655703879",
+        label: "Pozovite: 065 570 3879",
+      },
+      {
+        type: "p",
+        text: "U autoservisu Živković u Beogradu radimo zamenu i balansiranje guma, kao i kompletan prolećni pregled vozila. Termini su slobodniji početkom sezone – ne čekajte april i gužve. Pozovite nas i zakažite pregled dok je još mirno.",
+      },
+    ],
+  },
+  {
     slug: "kako-odabrati-autoservis-beograd",
     title: "Kako odabrati pouzdan autoservis u Beogradu – šta gledati?",
     metaTitle:
